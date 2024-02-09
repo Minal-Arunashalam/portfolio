@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #222;
+}
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron {
+    background-image: url();
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
