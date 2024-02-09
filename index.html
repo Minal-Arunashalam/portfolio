@@ -12,10 +12,10 @@
     <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div id="nav" class="container">
-            <a class="navbar-brand" href="#">Home</a>
-            <a class="navbar-brand" href="#">About</a>
-            <a class="navbar-brand" href="#">Works</a>
-            <a class="navbar-brand" href="#">Info+Contact</a>
+            <a class="navbar-brand" href="#home">Home</a>
+            <a class="navbar-brand" href="#works">Works</a>
+            <a class="navbar-brand" href="#experience">Companies</a>
+            <a class="navbar-brand" href="#contact">Info+Contact</a>
            
         </div>
     </nav>
@@ -26,6 +26,7 @@
     <div class="container">
         <h1 class="display-4">Hi, I'm Minal</h1>
         <p class="lead">A software engineer.</p>
+        
     </div>
 </section>
 
@@ -63,20 +64,21 @@
 
 <section id="works" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Recent Works (more on GitHub)</h2>
-        <!--Tab Nav-->
-        <ul class="nav nav-tabs justify-content-center mb-4">
-            <!-- tab 1 -->
+        <h2 class="text-center mb-4">Recent Works</h2>
+       <!-- Tabs -->
+        <!-- <ul class="nav nav-tabs justify-content-center mb-4">
+            
             <li class="nav-item">
                 <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button">Web</button>
             </li>
-            <!-- tab 2 -->
+            
             <li class="nav-item" role="presentation">
                 <button class="nav-link" data-bs-toggle="tab" data-bs-target="#apps" type="button">iOS</button>
             </li>
-        </ul>
+        </ul> -->
     </div>
     <div class="tab-content" id="tabs">
+        <!--tab 1 content-->
         <div class="tab-pane fade show active" id="web">
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -84,7 +86,44 @@
                         <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text">About.</p>
+                            <a href="#" class="btn btn-primary">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">About.</p>
+                            <a href="#" class="btn btn-primary">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">About.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more -->
+            </div>
+        </div>
+
+        <!--tab 2 content-->
+        <div class="tab-pane fade show active" id="apps">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">about.</p>
                             <a href="#" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
@@ -94,7 +133,7 @@
                         <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text">About.</p>
                             <a href="#" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
@@ -104,7 +143,7 @@
                         <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text">About.</p>
                             <a href="#" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
@@ -118,8 +157,51 @@
         
 </div>
 </section>
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Companies</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h3>Founder</h3>
+                    <p class="text-secondary">Apple</p>
+                    <p class="text-muted">January 2024 - Present</p>
+                    <p>about.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <h3>Co-founder</h3>
+                    <p class="text-secondary">Google</p>
+                    <p class="text-muted">Janunary 2024 - June 2024</p>
+                    <p>About</p>
+                </div>
+            </div>
+            <!--add more here if need-->
+        </div>
+    </div>
+</section>
 
 
+<!--info+contact-->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+            
+                <h4>Email</h4>
+                <p>minal.shalam@gmail.com</p>
+           
+            
+                <h4>LinkedIn</h4>
+                <p><a href="#">linkedin.com/in/minal12</a></p>
+           
+           
+                <h4>GitHub</h4>
+                <p><a href="#">github.com/minal-arunashalam</a></p>
+            
+    </div>
+</section>
 
 
 
