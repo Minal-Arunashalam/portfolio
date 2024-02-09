@@ -1,16 +1,14 @@
-.navbar {
-    background-color: #222;
-}
+
 .navbar-brand {
-    color: #fff;
-    font-weight: bold;
-}
-.navbar-nav .nav-link {
-    color: #fff;
+   font-weight:400;
 }
 
+.navbar-nav .nav-link {
+    color: #fff;
+} 
+
 .jumbotron {
-    background-image: url();
+    background-image: url('https://via.placeholder.com/1200x600');
     background-size: cover;
     color: #fff;
     padding: 100px 0;
