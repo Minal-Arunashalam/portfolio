@@ -14,3 +14,10 @@
     padding: 100px 0;
     text-align: center;
 }
+
+#tabs {
+    padding: 10px;
+}
+#about{
+    padding-top: 25px;
+}
