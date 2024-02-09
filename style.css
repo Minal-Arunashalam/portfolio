@@ -59,3 +59,14 @@ body.dark-mode {
 #experience.dark {
     color:#fff;
 } */
+
+/*hide sun icon on light theme*/
+/* .sun-icon{
+    display: none;
+}
+.moon-icon{
+    display: none;
+} */
+.hidden {
+    display:none;
+}
