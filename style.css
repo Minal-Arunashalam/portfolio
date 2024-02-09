@@ -25,4 +25,37 @@
     background-color: #f7f7f7;
 } */
 
+body{
+    background-color: #fff;
+}
 
+body.dark {
+    background-color: #333;
+    color: #fff;
+    
+}
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+/* Change navbar links to white */
+.dark-mode .navbar-light .navbar-brand, 
+.navbar-nav .nav-link{
+    color: #fff; 
+    
+}
+/* Change text color of experience section's secondary and muted text */
+.dark-mode .experience .text-secondary,
+.dark-mode .experience .text-muted {
+    color: #fff !important; 
+}
+
+/* .navbar-nav.dark .nav-link.dark {
+    color: #fff;
+}
+#home-nav.dark{
+    color:#fff; 
+} 
+#experience.dark {
+    color:#fff;
+} */
