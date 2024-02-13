@@ -8,9 +8,12 @@
 } 
 
 .jumbotron {
-    background-image: url('https://via.placeholder.com/1200x600');
-    background-size: cover;
-    color: #fff;
+    /* background-image: url(assets/banner.png); */
+    /* background-size: cover; */
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
     padding: 100px 0;
     text-align: center;
 }
@@ -48,6 +51,10 @@ body.dark-mode {
 .dark-mode .experience .text-secondary,
 .dark-mode .experience .text-muted {
     color: #fff !important; 
+}
+
+.dark-mode .jumbotron{
+    color:#fff;
 }
 
 /* .navbar-nav.dark .nav-link.dark {
