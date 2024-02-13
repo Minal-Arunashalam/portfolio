@@ -57,6 +57,11 @@ body.dark-mode {
     color:#fff;
 }
 
+.dark-mode .project-card {
+    background-color: #222;
+    color:#fff;
+}
+
 /* .navbar-nav.dark .nav-link.dark {
     color: #fff;
 }
